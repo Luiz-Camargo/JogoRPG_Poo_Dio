@@ -21,7 +21,7 @@ namespace GFT_JogoRPG.src.Entities
 
         public virtual string Attack()
         {
-            return this.Name + " atacou com a sua espada!";
+            return this.Name + " atacou Baltazar com a sua espada e obteve 10 pontos!";
         }
     }
 }

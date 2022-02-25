@@ -15,19 +15,16 @@ namespace GFT_JogoRPG.src.Entities
         }
 
 
-        public string Attack(int Bonus)
+        public string Attack(int Bonus, string Pontos)
         {
             if(Bonus > 6)
             {
-                return this.Name + " lançou uma Magia super EFETIVA com Bonus de Ataque de " + Bonus;
+                return this.Name + " ajudou Arus e lançou uma Magia super EFETIVA com Bonus de Ataque de " + Bonus;
             }
             else
             {
-                return this.Name + " lançou uma magia MUITO fraca com Bonus de " + Bonus;
+                return this.Name + " tentou ajudar Arus, mas lançou uma magia MUITO fraca com Bonus de " + Bonus + " " + Pontos;
             }
-
-
-            
         }
     }
 }
